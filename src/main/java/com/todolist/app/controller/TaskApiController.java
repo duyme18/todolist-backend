@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @CrossOrigin(origins = "*")
 @RestController
-@RequestMapping("/api/task")
+@RequestMapping("/api/auth/task")
 public class TaskApiController {
     @Autowired
     private TaskService taskService;
